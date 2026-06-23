@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./img/Logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Pet Care</title>
+    <meta name="description" content="Clinica veterinară Pet Care oferă servicii medicale de calitate, vaccinare, chirurgie și sfaturi utile pentru îngrijirea animalelor tale de companie." />
+    <meta name="keywords" content="clinica veterinara, pet care, medic veterinar, ingrijire animale, programare veterinar, tratamente caini, tratamente pisici, Cahul" />
+    <meta name="author" content="Cirjeu Dumitru" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Pet Care | Clinică Veterinară" />
+    <meta property="og:description" content="Servicii medicale complete și sfaturi utile pentru prietenul tău necuvântător." />
+    <meta property="og:image" content="" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+    <script>
+      // GitHub Pages SPA routing
+      (function(l) {
+        if (l.search[1] === "/") {
+          var decoded = l.search.slice(1).split("0026").map(function(s) {
+            return s.replace(/~and~/g, "0026");
+          }).join("?");
+          window.history.replaceState(null, null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location));
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    
+  </body>
+</html>
